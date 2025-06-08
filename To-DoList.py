@@ -4,7 +4,7 @@ from tkinter import messagebox
 class ToDolist:
     def __init__(self, window):
         self.window = window
-        self.window.title("To-Do List Application")
+        self.window.title(" MyTo-Do List Application")
         self.window.geometry("400x500")
         self.tasks = []
         self.setup_ui()
